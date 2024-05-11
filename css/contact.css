@@ -1,0 +1,34 @@
+/* Contact page style*/
+.form-group {
+    margin-bottom: 20px; /* Adaugăm un spațiu între grupurile de câmpuri */
+}
+
+label {
+    display: block; /* Facem etichetele să fie afișate ca blocuri pentru a le separa vertical */
+    font-weight: bold; /* Facem textul etichetelor mai îngroșat */
+}
+.form-control {
+    width: 100%; /* Setăm lățimea câmpurilor de formular la 100% */
+    padding: 10px; /* Adăugăm puțin spațiu în jurul textului în câmpurile de formular */
+    font-size: 16px; /* Mărimea textului */
+    border: 1px solid #ccc; /* Adăugăm un contur subțire în jurul câmpurilor */
+    border-radius: 5px; /* Rotunjim colțurile câmpurilor */
+}
+
+textarea.form-control {
+    height: auto; /* Setăm înălțimea textarea-ului pentru a se ajusta automat */
+    resize: vertical; /* Permite utilizatorului să redimensioneze vertical textarea-ul */
+}
+.submit-button {
+    background-color: #4CAF50; /* Culoarea de fundal */
+    color: white; /* Culoarea textului */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Dimensiune font */
+    border: none; /* Eliminăm conturul */
+    border-radius: 5px; /* Rotunjim marginile */
+    cursor: pointer; /* Cursor pointer la hover */
+}
+/* Stilizare buton de submit la hover */
+.submit-button:hover {
+    background-color: #45a049; /* Schimbăm culoarea de fundal la hover */
+}

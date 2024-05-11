@@ -1,0 +1,267 @@
+/* Stiluri CSS */
+
+
+        .p { font-size: 12pt; line-height:12pt; }
+        .p:first-letter { font-size: 200%; }
+
+.container {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center; /* Center items horizontally */
+
+
+}
+.container {
+    display: flex;
+    flex-direction: wrap; /*Permite împachetarea elementelor pe mai multe linii */
+    justify-content: center; /* Centrează elementele orizontal */
+    max-width: 100%;
+    
+}
+  
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 10px;
+}
+  
+.links.a {
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #808080;
+}
+  /*Galerie */
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}
+  .item-photo{
+    flex: 0 0 calc(33.33% - 20px); /* Ajustează lățimea coloanelor */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+ }
+ .item-photo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+
+ }
+ .gallery-section{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .description-text{
+   color: #161D2A;
+    font-size: 18px; /* Dimensiunea fontului pentru textul de sub poze */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: 100px;
+    color: #333; /* Culoare text */
+    line-height: 1.6; /* Înălțimea liniei pentru o prezentare mai aerisită */
+    
+ }
+ .contacts-item{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+ .contacts-phone{
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+         .body{
+        background-color: #D0D6D5;
+        font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+  }
+        
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+        .iframe {
+          display: flex;
+    justify-content: center;
+        }
+        .body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D0D6D5;
+}
+
+.signup-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.h2 {
+  color: #393960;
+}
+/*Form style */
+
+.caption {
+  margin-top: 10px; /* Spațiu între imagine și caption */
+    text-align: center; /* Aliniază textul în centrul imaginii */
+    max-width: 100%; /* Asigură că caption-urile nu depășesc lățimea imaginii */
+}
+
+/*Pagina Principala*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-1 {
+    background-color: #98FF98;
+    color: #fff;
+    padding: 1rem;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-1 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+     list-style: none;
+    padding: 0;
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-pp {
+    background-color: #98FF98;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Adaugă această clasă pentru a schimba culoarea butonului */
+.btn-pisici {
+    background-color: #98FF98;
+    border-color: #98FF98;
+     color: #000; /* Schimbă culoarea textului la negru sau la altă culoare care se potrivește cu noul fundal */
+}
+
+/* Galerie */
+/* Clasa personalizată pentru link-urile cu nuanța #98FF98 */
+    .friendly-link {
+        color: #98FF98; /* Schimbă culoarea textului link-ului */
+        text-decoration: none; /* Elimină sublinierea implicită a link-urilor */
+        transition: color 0.3s; /* Adaugă o tranziție lină pentru schimbarea culorii */
+        margin-right: 10px; /* Adaugă un spațiu la dreapta între link-uri */
+        font-size: 18px; /* Mărește dimensiunea textului link-ului */
+        display: inline-block; /* Face ca link-urile să fie afișate ca blocuri */
+    }
+
+    /* Stil pentru hover - când mouse-ul este deasupra link-ului */
+    .friendly-link:hover {
+        color: #4CAF50; /* Schimbă culoarea textului link-ului la o nuanță diferită la hover */
+    }
+/*Hover imagini din galerie*/
+    .item-photo img {
+            width: 80%; /* Asigură că imaginea ocupă întreaga lățime a containerului */
+            height: auto; /* Face ca înălțimea imaginii să fie ajustată proporțional */
+            transition: transform 0.3s ease-in-out; /* Adaugă o tranziție lină pentru efectul transform */
+        }
+
+        /* Stil pentru hover - când mouse-ul este deasupra imaginii */
+        .item-photo:hover img {
+            transform: scale(1.1); /* Mărește imaginea la hover cu 10% folosind transform: scale */
+        }
+
+        /* Stiluri pentru secțiunea "Cats Gallery" */
+        .cats-gallery {
+            background-color: #f8e7e7; /* Fundal de culoare deschisă */
+            padding: 50px 0; /* Spatiere interioara pentru a separa conținutul */
+            text-align: center; /* Aliniere text centru */
+        }
+
+        .gallery-section {
+            font-size: 36px; /* Dimensiunea fontului pentru titlu */
+            color: #ff69b4; /* Culoare text titlu */
+            margin-bottom: 30px; /* Spatiere la partea de jos a titlului */
+        }
